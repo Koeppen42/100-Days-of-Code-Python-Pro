@@ -1,0 +1,15 @@
+# with open("my_file.txt") as file:
+#     content = file.read()
+#     print(content)
+
+        # Absolute File Path
+
+# with open("/Users/mattk/OneDrive/Desktop/my_file.txt") as file:
+#     contents = file.read()
+#     print(contents)
+
+        # Relative File Path
+
+with open("../../OneDrive/Desktop/my_file.txt") as file:
+    contents = file.read()
+    print(contents)
